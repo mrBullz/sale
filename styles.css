@@ -296,6 +296,25 @@ h3 {
 .existing { background: linear-gradient(135deg, rgba(99, 102, 241, 0.06), rgba(139, 92, 246, 0.06)); }
 .center { text-align: center; margin-top: 34px; }
 .business-card { background: rgba(236, 236, 240, 0.42); }
+.business-icon {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 24px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(30, 30, 60, 0.06);
+}
+.business-icon svg {
+  width: 34px;
+  height: 34px;
+  stroke: #6366f1;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 
 .after-grid { grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.8fr); }
 .plain-list {
